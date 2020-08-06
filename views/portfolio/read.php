@@ -30,7 +30,7 @@
                 <?php }
                 ?>
             </ol>
-            <div class="carousel-inner">
+            <div>
                 <?php
                 if ($image2 != NULL || !empty($image2)) {
                     ?>

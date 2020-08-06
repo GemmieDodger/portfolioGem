@@ -28,7 +28,7 @@
         </div>
     </div>
 </section>
-<section>
+<section class = "moredetails">
     <div class="container">
         <div  class="jumbotron">
             <p class ="mx-auto">
@@ -90,7 +90,7 @@
 </section>
 <section class="col-xs-12">
     <div class="container">
-        <h2 class="text-uppercase animation-element slide-left">What I do?</h2>
+        <h2 class="text-uppercase animation-element slide-left mt-5">What I do?</h2>
         <div id="keys" class="row  white-font">
             <div class="col-lg-4 d-flex align-items-stretch animation-element slide-left">
                 <div class="card-margin card mx-auto">

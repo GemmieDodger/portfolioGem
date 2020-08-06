@@ -26,12 +26,14 @@ body {
 
 .hero {
     position: relative;
-    text-align: center;
+    text-align: center; 
+    
 }
 
 .hero-image{
     opacity: 30%;
-
+    max-height:500px;
+    max-width:800px;
 
 }
 .hero-text{

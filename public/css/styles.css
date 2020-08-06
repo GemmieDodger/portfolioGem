@@ -1,17 +1,11 @@
-/* Image Crop  */
-/*.post-crop{
-    overflow: hidden !important;
-    width: 711px !important;
-    height: 826px !important;
-}*/
-/**/
 
+
+body {
+    position: relative;
+}
 
 /*NAVIGATION MENU*/
 
-#brand {
-    font-weight: 600;
-}
 .menu {
     color: #7c7c7c;
     font-weight: 500;
@@ -26,32 +20,8 @@
     height: 26px;
     margin-left: 6px;
 }
-nav {
-    margin-top:10px;
-}
 
-
-
-#navbar-brand {
-    /*    width: 80%;*/
-    /*    min-width: 100px;*/
-    max-width:300px;
-}
-
-#logo {
-    /*width: 80%;*/
-
-    max-width:300px;
-
-}
-
-/*About*/
-
-/*follow moust in about*/
-#container {
-    position: relative;
-
-}
+/*ABOUT*/
 
 
 .hero {
@@ -60,32 +30,27 @@ nav {
 }
 
 .hero-image{
-
     opacity: 30%;
-    max-height:650px;
+
 
 }
 .hero-text{
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 300px;
+    min-width: 250px;
     transform: translate(-50%, -50%);
 
 }
 
-.follow {
 
-
-
-}
+/*LEARN MORE BUTTON*/
 
 .button {
-    /* background-color: #e9ecef;*/
     font-weight: 800;
     color: #14b5c5;
     border-radius: 0 !important
-        /*  max-width:30px;*/
+
 }
 .button:hover {
     color: #F73286; 
@@ -98,6 +63,7 @@ a:hover {
     color: #F73286;
 }
 
+/*CALL OUT CARD*/
 .card {
     border: 0 !important;
     height: 250px;
@@ -107,38 +73,18 @@ a:hover {
 }
 
 .card-body {
-    /* background-color: #e9ecef;*/
     padding-top: 20%;
     padding-bottom: 20%;
 }
 
-/*this isnt used*/
-.height {
-    padding-top: 20%;
-    padding-bottom: 20%;
-}
 
-.caption-about {
-    padding-top: 25%;
-    padding-bottom: 25%;
-}
-
-/*Zoom in from left about page */
-/*animation element*/
+/*ANIMATION ZOOM FROM LEFT*/
 
 .animation-element {
     opacity: 0;
     position: relative;
 }
-/*animation element sliding left*/
 
-/*animation element*/
-
-/*.animation-element {
-  opacity: 0;
-  position: relative;
-}*/
-/*animation element sliding left*/
 
 .animation-element.slide-left {
     opacity: 0;
@@ -175,44 +121,24 @@ a:hover {
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
-
-.page-tech {
-
-    height: 80%;
-
-}
 .blue { 
     background-color: #14b5c5;
+
 }
 
 .white-font { 
     color:white;
 }
 
-.space-top {
-    padding-top: 8%;
-}
-.space-left {
-    padding-left: 50%;
-}   
+
 .right { 
     position: static;
-    right: 0px;
-    min-width: 100px;
-    padding: 10px;
-
+    padding-left: 2%;
+    padding-top: 2%;
 }
 
-/*MAIN*/
 
-.relative {
-    position: relative;
-}
-.absolute {
-    position:absolute;
-}
-
-/*Scroll to top button*/
+/*SCROLL TO TOP BUTTON*/
 .back-to-top {
     position:fixed;
     bottom:2em;
@@ -234,153 +160,14 @@ a:hover {
 }
 
 /*FOOTER*/
-.f-social {
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
-    margin-left: 5px;
-}
-footer {
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-.footer-margin {
-    margin-top: 10px;
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
 }
 
-
-
-/*MEDIA QUERIES*/
-@media only screen and (max-width: 480px){ /*portrait phone*/
-    /*     
-     .page {
-         height: 40%;
-       
-     }*/
-
-    .page-tech {
-        height: 80%;
-
-    }
-    /*  .page-about {
-         height: 40%;
-              
-     }*/
-
-    /*   .page-bottom {
-         height: 100%;
-              
-     }*/
-    .space-top {
-        padding-top: 5%;
-    }
-
-    .center {
-        padding-top: 0%;
-        padding-bottom: 15%;
-    }
-
-
-
-    html {
-
-    }
-    .img-gallery {
-        opacity: 0.2;
-    }
-
-    .middle-gallery {
-        opacity: 1;
-    }  
-
-
-}
-
-@media only screen and (max-width: 768px) { /*landscape phone or smaller*/
-    .menu {
-        font-size: 16px;
-
-    }
-    .f-col-margin {
-        margin-top: 40px;
-    }
-
-    #logo {
-        width:200px;
-        position: relative;
-    }
-    .carousel-inner {
-        min-width: 340px;
-    }
-
-
-    .card-margin{
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-
-
-    /* .page {
-         height: 50%;
-       
-     }*/
-    /*  .page-top {
-         height: 20%;
-              
-     }*/
-    /* .page-bottom {
-         height: 80%;
-     }*/
-    html {
-        min-width:400px;
-    }
-    .img-gallery {
-        opacity: 0.2;
-    }
-
-    .middle-gallery {
-        opacity: 1;
-    }  
-    .postbutton {
-        text-align: center;
-    }
-    .space-top {
-        padding-top: 5%;
-    }
-
-
-}
-
-@media only screen and (max-width: 991px) { /*tablets*/
-    html {
-
-    }
-    .postbutton {
-        text-align: center;
-    }
-    .card-margin{
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    /*    
-         .page-bottom {
-         height: 120%;
-     }*/
-    /*     .page-top {
-             height: 50%;
-         }*/
-
-}
-
-
-@media only screen and (max-width: 1050px) { /*desktops*/
-    .page-bottom {
-        /*     height: 130%;*/
-    }
-}
-
-
-/*Portfolio*/
+/*PORTFOLIO*/
 
 .gallery-filter {
     margin: 5%;
@@ -413,13 +200,8 @@ footer {
     color: white;
 }
 
-/*.port-image
-{
-    min-width: 460px;
-}*/
 
-.gallery_product
-{
+.gallery_product {
     margin-bottom: 30px;
     position: relative;
 
@@ -433,7 +215,6 @@ footer {
 }
 
 .img-gallery {
-
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -467,7 +248,7 @@ footer {
     padding: 16px 32px;
 }
 
-/*contact*/
+/*CONTACT PAGE*/
 #contact-image {
 
     opacity: 20%;
@@ -475,14 +256,14 @@ footer {
     max-width:800px;
 }
 
-/*read page*/
+/*READ PAGE*/
 
 .readtitle {
     padding-top:100px;
     padding-bottom: 100px;
 }
 
-/*previous button post*/
+/*PREVIOUS POST BUTTON*/
 
 
 .postbutton {
@@ -497,8 +278,7 @@ footer {
 
 }
 
-/*ROCK PAPER SCISSORS*\
-*/
+/*ROCK PAPER SCISSORS*\*/
 
 
 .rps-game {

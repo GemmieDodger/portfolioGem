@@ -49,13 +49,13 @@
                 if ($image4 != NULL || !empty($image4)) {
                     ?>       
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="<?php $portfolio->image4 ?>" alt="<?php echo $portfolio->image4 ?>">
+                        <img class="d-block w-100 " src="<?php $portfolio->image4 ?>" alt="<?php echo $portfolio->image4 ?>">
                     </div>
                     <?php
                 }
                 if ($image5 != NULL || !empty($image5)) {
                     ?>     
-                    <div class="carousel-item">
+                    <div class="carousel-item ">
                         <img class="d-block w-100" src="<?php $portfolio->image5 ?>" alt="<?php echo $portfolio->image5 ?>">
                     </div>
                 <?php } ?>
@@ -79,11 +79,11 @@
         <div class="col-md-6  animation-element slide-left ">
             <h2 class="text-uppercase mt-5"><?php echo $portfolio->title; ?></h2>
         </div>
-        <div class="col-md-6   ">
+        <div class="col-md-6  animation-element slide-left ">
             <p class="text-uppercase"><?php echo $portfolio->technologies; ?></h2>
         </div>
 
-        <div class="align-self-center mx-auto ">
+        <div class="align-self-center mx-auto animation-element slide-left">
             <div class="col-md-12 col-lg-12" >
                 <p class="mt-5"><?php echo $portfolio->content; ?></p>
                 <br/> 
@@ -122,34 +122,34 @@
 
 //Animation to make element slide in from left
 //cache reference to window and animation items
-var $animation_elements = $('.animation-element');
-var $window = $(window);
+    var $animation_elements = $('.animation-element');
+    var $window = $(window);
 
 
 
-function check_if_in_view() {
-  var window_height = $window.height();
-  var window_top_position = $window.scrollTop();
-  var window_bottom_position = (window_top_position + window_height);
+    function check_if_in_view() {
+        var window_height = $window.height();
+        var window_top_position = $window.scrollTop();
+        var window_bottom_position = (window_top_position + window_height);
 
-  $.each($animation_elements, function() {
-    var $element = $(this);
-    var element_height = $element.outerHeight();
-    var element_top_position = $element.offset().top;
-    var element_bottom_position = (element_top_position + element_height);
+        $.each($animation_elements, function () {
+            var $element = $(this);
+            var element_height = $element.outerHeight();
+            var element_top_position = $element.offset().top;
+            var element_bottom_position = (element_top_position + element_height);
 
-    //check to see if this current container is within viewport
-    if ((element_bottom_position >= window_top_position) &&
-        (element_top_position <= window_bottom_position)) {
-      $element.addClass('in-view');
-    } else {
-      $element.removeClass('in-view');
+            //check to see if this current container is within viewport
+            if ((element_bottom_position >= window_top_position) &&
+                    (element_top_position <= window_bottom_position)) {
+                $element.addClass('in-view');
+            } else {
+                $element.removeClass('in-view');
+            }
+        });
     }
-  });
-}
 
-$window.on('scroll', check_if_in_view);
-$window.on('scroll resize', check_if_in_view);
-$window.trigger('scroll');
+    $window.on('scroll', check_if_in_view);
+    $window.on('scroll resize', check_if_in_view);
+    $window.trigger('scroll');
 
 </script>

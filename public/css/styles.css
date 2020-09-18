@@ -46,11 +46,12 @@ body {
 }
 
 .aboutme {
-    height: 80% !important;
+/*    height: 80%;*/
 }
 
 .caption-about {
-    padding-top:15% !important;
+    padding-top:15%;
+    padding-bottom: 15%;
 }
 /*.card-section {
     height: 80%;

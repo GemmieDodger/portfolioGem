@@ -45,6 +45,16 @@ body {
 
 }
 
+.aboutme {
+    height: 80% !important;
+}
+
+.caption-about {
+    padding-top:15% !important;
+}
+/*.card-section {
+    height: 80%;
+}*/
 
 /*LEARN MORE BUTTON*/
 
@@ -163,12 +173,21 @@ a:hover {
 
 /*FOOTER*/
 
-#footer {
-    position: absolute;
+#myfooter {
+    position: relative !important;/*absolute*/
     bottom: 0;
-    height: 100px;
+    height: 100px !important;
+    width: 100% !important;
 }
 
+.social-button {
+/*    max-width: 30px;
+    max-height: 30px;*/
+    margin-right: 10px;
+}
+.footer-margin {
+    margin-top: 40px !important;
+}
 /*PORTFOLIO*/
 
 .gallery-filter {

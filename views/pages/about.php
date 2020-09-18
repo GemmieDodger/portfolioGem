@@ -17,9 +17,9 @@
 </section>
 
 <!--MAIN--> 
-<section>
-    <div class="container">
-        <div class="align-self-center row text-center mx-auto caption-about">
+<section class="aboutme">
+    <div class="caption-about">
+        <div class=" container  text-center "> <!--row  align-self-center mx-auto-->
             <div >
                 <p class="animation-element slide-left">I'm a website designer / developer with a flexible location (canal-based!). I love making fun, fast and efficient websites, contributing to a team or running solo. I enjoy learning new technical languages but in my spare time you can find me doing DIY on my narrowboat home or chasing down the best craft cider.</p>
                 <br/> 
@@ -88,7 +88,7 @@
         </div>
     </div>
 </section>
-<section class="col-xs-12">
+<section class="col-xs-12 card-section">
     <div class="container">
         <h2 class="text-uppercase animation-element slide-left mt-5">What I do?</h2>
         <div id="keys" class="row  white-font">

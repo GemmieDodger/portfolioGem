@@ -136,6 +136,14 @@ a:hover {
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
+.carousel-inner {
+    width: 60%;
+    text-align: center;
+    min-width: 200px;
+ 
+
+}
+
 .blue { 
     background-color: #14b5c5;
 

@@ -17,7 +17,7 @@
 </section>
 
 <!--MAIN--> 
-<section class="caption-about" > <!--class="aboutme"-->
+<section class="caption-about" > 
    
         <div class=" container  text-center "> <!--row  align-self-center mx-auto-->
             <div >

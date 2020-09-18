@@ -12,7 +12,8 @@ body {
     margin-right: 40px;
     font-size: 18px;
 }
-.menu:hover, .logo:hover {
+
+.menu:hover, #logo:hover {
     color: #000;
 }
 .nav-social {
@@ -21,6 +22,9 @@ body {
     margin-left: 6px;
 }
 
+#logo {
+    max-width: 250px;
+}
 /*ABOUT*/
 
 
@@ -45,9 +49,7 @@ body {
 
 }
 
-.aboutme {
-/*    height: 80%;*/
-}
+
 
 .caption-about {
     padding-top:15%;

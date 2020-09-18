@@ -38,7 +38,7 @@
             <div class="container">
                 <div class="break row">
                     <div class="col-md-12 text-center align-self-center">
-                        <p>I'm available for hire. Get in touch by any of my social media accounts below.</p>
+                        <p>Please get in touch by any of my social media accounts below.</p>
                     </div>
                 </div>
             </div>

@@ -18,8 +18,8 @@
 
 <!--MAIN--> 
 <section class="aboutme">
-    <div class="container">
-        <div class="align-self-center row text-center mx-auto caption-about">
+    <div class="caption-about">
+        <div class=" container  text-center "> <!--row  align-self-center mx-auto-->
             <div >
                 <p class="animation-element slide-left">I'm a website designer / developer with a flexible location (canal-based!). I love making fun, fast and efficient websites, contributing to a team or running solo. I enjoy learning new technical languages but in my spare time you can find me doing DIY on my narrowboat home or chasing down the best craft cider.</p>
                 <br/> 

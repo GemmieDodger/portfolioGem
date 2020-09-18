@@ -44,9 +44,9 @@
             </div>
             <div class= "row" >
                 <div class="mx-auto">
-                    <a href="https://www.instagram.com/gemmadruce/" target="_blank" rel="noopener"><img class="social-button f-social" src="public/images/instagram.png" alt="Instagram social icon"></a>
-                    <a href="https://www.pinterest.co.uk/petalsnow/" target="_blank" rel="noopener"><img class="social-button f-social" src="public/images/pinterest.png" alt="Pinterest social icon"></a>
-                    <a href="https://twitter.com/GemmaDruce" target="_blank" rel="noopener"><img class="social-button f-social" src="public/images/twitter.png" alt="Twitter social icon"></a>
+                    <a href="https://www.instagram.com/gemmadruce/" target="_blank" rel="noopener"><img class=" f-social" src="public/images/instagram.png" alt="Instagram social icon"></a>
+                    <a href="https://www.pinterest.co.uk/petalsnow/" target="_blank" rel="noopener"><img class="f-social" src="public/images/pinterest.png" alt="Pinterest social icon"></a>
+                    <a href="https://twitter.com/GemmaDruce" target="_blank" rel="noopener"><img class="f-social" src="public/images/twitter.png" alt="Twitter social icon"></a>
                 </div>
             </div>
 

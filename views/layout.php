@@ -32,26 +32,26 @@
     <div>
         <?php require_once('routes.php'); ?>
     </div>
-    <footer id="footer">
+    <footer id="myfooter">
 
         <div class="container">
             <div class="container">
                 <div class="break row">
-                    <div class="col-md-12 align-self-center">
-                        <p class="text-center">I'm available for hire. Get in touch by any of my social media accounts below.</p>
+                    <div class="col-md-12 text-center align-self-center">
+                        <p>I'm available for hire. Get in touch by any of my social media accounts below.</p>
                     </div>
                 </div>
             </div>
             <div class= "row" >
-                <div class="mx-auto text-center footer-margin">
-                    <a href="https://www.instagram.com/gemmadruce/" target="_blank" rel="noopener"><img class="f-social" src="public/images/instagram.png" alt="Instagram social icon"></a>
-                    <a href="https://www.pinterest.co.uk/petalsnow/" target="_blank" rel="noopener"><img class="f-social" src="public/images/pinterest.png" alt="Pinterest social icon"></a>
-                    <a href="https://twitter.com/GemmaDruce" target="_blank" rel="noopener"><img class="f-social" src="public/images/twitter.png" alt="Twitter social icon"></a>
+                <div class="mx-auto">
+                    <a href="https://www.instagram.com/gemmadruce/" target="_blank" rel="noopener"><img class="social-button f-social" src="public/images/instagram.png" alt="Instagram social icon"></a>
+                    <a href="https://www.pinterest.co.uk/petalsnow/" target="_blank" rel="noopener"><img class="social-button f-social" src="public/images/pinterest.png" alt="Pinterest social icon"></a>
+                    <a href="https://twitter.com/GemmaDruce" target="_blank" rel="noopener"><img class="social-button f-social" src="public/images/twitter.png" alt="Twitter social icon"></a>
                 </div>
             </div>
 
             <div class="row">
-                <p class = "text-center mx-auto  footer-margin">Copyright Gemma Druce 2020</p>
+                <p class = "text-center mx-auto">Copyright Gemma Druce 2020</p>
             </div>
         </div>
 

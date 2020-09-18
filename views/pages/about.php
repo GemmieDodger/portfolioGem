@@ -17,7 +17,7 @@
 </section>
 
 <!--MAIN--> 
-<section>
+<section class="aboutme">
     <div class="container">
         <div class="align-self-center row text-center mx-auto caption-about">
             <div >
@@ -88,7 +88,7 @@
         </div>
     </div>
 </section>
-<section class="col-xs-12">
+<section class="col-xs-12 card-section">
     <div class="container">
         <h2 class="text-uppercase animation-element slide-left mt-5">What I do?</h2>
         <div id="keys" class="row  white-font">

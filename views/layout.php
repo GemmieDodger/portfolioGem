@@ -44,14 +44,14 @@
             </div>
             <div class= "row" >
                 <div class="mx-auto">
-                    <a href="https://www.instagram.com/gemmadruce/" target="_blank" rel="noopener"><img class=" f-social" src="public/images/instagram.png" alt="Instagram social icon"></a>
-                    <a href="https://www.pinterest.co.uk/petalsnow/" target="_blank" rel="noopener"><img class="f-social" src="public/images/pinterest.png" alt="Pinterest social icon"></a>
-                    <a href="https://twitter.com/GemmaDruce" target="_blank" rel="noopener"><img class="f-social" src="public/images/twitter.png" alt="Twitter social icon"></a>
+                    <a href="https://www.instagram.com/gemmadruce/" target="_blank" rel="noopener"><img class="nav-social" src="public/images/instagram.png" alt="Instagram social icon"></a>
+                    <a href="https://www.pinterest.co.uk/petalsnow/" target="_blank" rel="noopener"><img class="nav-social" src="public/images/pinterest.png" alt="Pinterest social icon"></a>
+                    <a href="https://twitter.com/GemmaDruce" target="_blank" rel="noopener"><img class="nav-social" src="public/images/twitter.png" alt="Twitter social icon"></a>
                 </div>
             </div>
 
             <div class="row">
-                <p class = "text-center mx-auto">Copyright Gemma Druce 2020</p>
+                <p class = "mt-1 text-center mx-auto">Copyright Gemma Druce 2020</p>
             </div>
         </div>
 

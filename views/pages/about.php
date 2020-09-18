@@ -17,8 +17,8 @@
 </section>
 
 <!--MAIN--> 
-<section class="aboutme">
-    <div class="caption-about">
+<section class="caption-about" > <!--class="aboutme"-->
+   
         <div class=" container  text-center "> <!--row  align-self-center mx-auto-->
             <div >
                 <p class="animation-element slide-left">I'm a website designer / developer with a flexible location (canal-based!). I love making fun, fast and efficient websites, contributing to a team or running solo. I enjoy learning new technical languages but in my spare time you can find me doing DIY on my narrowboat home or chasing down the best craft cider.</p>
@@ -26,7 +26,7 @@
                 <p ><span class="button showmore animation-element slide-left">Learn more!</span> </p>
             </div>
         </div>
-    </div>
+
 </section>
 <section class = "moredetails">
     <div class="container">
